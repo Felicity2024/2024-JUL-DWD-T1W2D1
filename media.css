@@ -1,0 +1,9 @@
+h1 {
+    font-size: 28px;
+}
+
+@media screen and (min-width:400px) {
+    h1 {
+        font-size: 52px;
+    }
+}
