@@ -3,6 +3,8 @@
     width: 50%
     max-content: 400px */
 
-    width: max(300px, 50%);
-    max-width: 400px;
+    /* width: max(300px, 50%); 
+    max-width: 400px; */
+
+    width: clamp(300px, 50%, 400px);
 }
